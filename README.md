@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# -Social-media-mock-
+CRUD proj with JS + webpack
+
 # Webpack Starter
 
 A starter pack to build JavaScript applications using standards from ES2015, ES2016.
@@ -32,5 +34,3 @@ Compile and build
 $ npm run build
 ```
 
-# -Social-media-mock-
-CRUD proj with JS + webpack
