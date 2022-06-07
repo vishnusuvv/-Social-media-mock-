@@ -1,0 +1,102 @@
+#navbarCollapse {
+  display: none;
+}
+
+@media screen and (max-width: 1025px) {
+  #navbarCollapse {
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    -webkit-transform: translate(-500%);
+            transform: translate(-500%);
+    z-index: 99;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+  }
+}
+
+@media screen and (max-width: 575.09px) {
+  #navbarCollapse {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.sidebar--show {
+  -webkit-transform: translate(0%) !important;
+          transform: translate(0%) !important;
+}
+
+@media screen and (max-width: 1025px) {
+  .navbar-nav {
+    margin: auto;
+    font-size: 32px;
+  }
+  .navbar-nav .navbar-brand {
+    font-size: 36px;
+  }
+}
+
+.close-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border: 0;
+  z-index: 99;
+  background-color: transparent;
+  color: white;
+}
+
+.close-btn i {
+  font-size: 32px;
+}
+
+.footer {
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+}
+
+.post {
+  width: 25%;
+  -ms-flex-item-align: self-end;
+      -ms-grid-row-align: self-end;
+      align-self: self-end;
+}
+
+@media screen and (max-width: 575.98px) {
+  .post {
+    width: 100%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.card-title {
+  border-bottom: 1px solid #4857854a;
+  width: 20%;
+}
+
+@media screen and (max-width: 575.98px) {
+  .card-title {
+    width: 100%;
+  }
+}
+
+.post-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.delete {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
